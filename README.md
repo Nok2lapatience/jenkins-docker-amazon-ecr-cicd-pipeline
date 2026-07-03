@@ -83,60 +83,99 @@ Push Docker Image to Amazon ECR
 Remove Local Docker Image
 
 ## Jenkins Pipeline Stages
-Retrieve latest source code from GitHub.
-Compile the Java application using Maven.
-Execute automated unit tests.
-Run static code analysis.
-Perform code quality scanning.
-Verify that the project meets quality requirements before deployment.
-Package the application into a Docker image.
-Authenticate securely using IAM credentials stored in Jenkins Credentials.
-Publish Docker image to Amazon Elastic Container Registry.
-Remove local Docker image after successful upload.
+Docker
 
+Docker Pipeline
+
+Amazon ECR
+
+AWS SDK
+
+CloudBees Docker Build & Publish
+
+SonarQube Scanner
+
+Pipeline
+
+Git
+
+Maven Integration
 ## AWS Services Used
 Amazon ECR
+
 IAM
+
 EC2
+
 AWS CLI
 
 ## Jenkins Plugins
 Docker
+
 Docker Pipeline
+
 Amazon ECR
+
 AWS SDK
+
 CloudBees Docker Build & Publish
+
 SonarQube Scanner
+
 Pipeline
+
 Git
+
 Maven Integration
 
 ## Key Skills Demonstrated
 CI/CD
+
 Continuous Integration
+
 Continuous Delivery
+
 Docker
+
 Containerization
+
 Jenkins
+
 AWS
+
 Amazon ECR
+
 IAM
+
 GitHub
+
 Maven
+
 Linux
+
 SonarQube
+
 Automation
+
 Cloud Computing
+
 DevOps
 
 ## Future Improvements
 Deploy Docker images to Amazon ECS
+
 Deploy to Amazon EKS
+
 Automate Infrastructure using Terraform
+
 Implement GitHub Actions
+
 Implement GitLab CI/CD
+
 Deploy using ArgoCD
+
 Implement Kubernetes
+
 Implement Monitoring using Prometheus & Grafana
 
 ## Author
